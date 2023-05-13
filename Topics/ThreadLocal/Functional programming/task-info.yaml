@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: "Yes, the method <code>withInitial</code> takes Supplier as a parameter"
+- text: "Yes, but only since Java 8"
+- text: "No, never"
+- text: "Yes, the method <code>get</code> takes Supplier as a parameter"
+- text: "Yes, it has been possible since the creating of <code>ThreadLocal</code>"
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/23992#comment
+status: Solved
+record: -1
+local_check: false
